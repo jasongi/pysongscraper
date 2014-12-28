@@ -36,10 +36,8 @@ import os
 
 def scrape(urls):
     for song in urls:
-        googsearch = pygoogle(song + ' site:youtube.com')
-        googsearch.pages = 1
-        ytlink = googsearch.get_urls()[0]
-        video = pafy.new(ytlink)
+        print song
+        video = pafy.new(song)
         print '''Downloading ''' + video.title
         video.getbestaudio().download()
 
@@ -54,7 +52,10 @@ def main():
                 csvarray.append(row)
             for row in csvarray:
                 for song in row:
-                    urls.append(song)
+                    googsearch = pygoogle(song + ' site:youtube.com/watch')
+                    googsearch.pages = 1
+                    ytlink = googsearch.get_urls()[0]
+                    urls.append(ytlink)
             scrape(urls)
 if __name__ == "__main__":
     main()

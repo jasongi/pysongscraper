@@ -17,7 +17,7 @@ Because it uses an old google API, the amount of queries is limited and do too m
 
 2. Choose the directory to download things to (if the directory does not exist it will be created
 
-3. Write a list of the songs you wish to download in the text box in the left. The most effective method is to use a method of *<artist> -- <song title*>*
+3. Write a list of the songs you wish to download in the text box in the left. The most effective method is to use a method of * (artist) -- (song title)*
 
 4. Press the refresh button. This does a google search for each item and populates the **Select Song** and **Select Youtube Search Match** box.
 

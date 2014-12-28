@@ -10,7 +10,7 @@ You need have python (2.x.x) unless you are using the cx_freeze version. The cx_
 ##How it works
 youtubesongscraper uses pafy and pygoogle to simplify downloading multiple youtube video audio (eg when you want to download a custom playlist. It does a google search for the terms you write in edit box and then you can select the youtube video to download.
 
-Because it uses an old google API, the amount of queries is limited and do too many you may be blocked from the api.
+Because it uses an old google API, the amount of queries is limited and do too many you may be blocked from the api. It also takes a while if you have a big list of songs, I would not recommend doing more than 10 songs at once.
 
 ##Using the program
 1. Open pysonggui

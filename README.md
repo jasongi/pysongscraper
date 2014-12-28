@@ -1,5 +1,5 @@
-youtubesongscraper
-by Jason Giancono jasongi.com/
+#youtubesongscraper
+###by Jason Giancono jasongi.com/
 ==================
 
 Tool (with GUI or import from CSV) for easy downloading youtube songs in bulk

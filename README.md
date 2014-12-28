@@ -35,9 +35,11 @@ See usage below
 **Open GUI**
 ```bash
 python pysonggui.py```
+
 **Download from CSV*
 ```bash
 python pysonggui.py -csv <csv filename> [download directory]```
+
 **Display Help**
 ```bash
 python pysonggui.py -h```

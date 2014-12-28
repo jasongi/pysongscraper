@@ -33,17 +33,17 @@ Because it uses an old google API, the amount of queries is limited and do too m
 
 See usage below
 
-#Open GUI
+####Open GUI
 ```bash
 python pysonggui.py
 ```
 
-#Download from CSV
+####Download from CSV
 ```bash
 python pysonggui.py -csv <csv filename> [download directory]
 ```
 
-#Display Help
+####Display Help
 ```bash
 python pysonggui.py -h
 ```

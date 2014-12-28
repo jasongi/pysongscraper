@@ -32,14 +32,18 @@ Because it uses an old google API, the amount of queries is limited and do too m
 9. Alternatively, if you have you song list in a csv file, and are 'Feeling Lucky', you can YOLO download the first hit for each of the entries in the csv file via the command line
 
 See usage below
+
 **Open GUI**
 ```bash
-python pysonggui.py```
+python pysonggui.py
+```
 
 **Download from CSV*
 ```bash
-python pysonggui.py -csv <csv filename> [download directory]```
+python pysonggui.py -csv <csv filename> [download directory]
+```
 
 **Display Help**
 ```bash
-python pysonggui.py -h```
+python pysonggui.py -h
+```
